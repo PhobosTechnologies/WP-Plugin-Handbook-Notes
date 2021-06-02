@@ -579,7 +579,7 @@ current_action();
 current_filter();
 
 // running hook once or checking how many times it's been run
-function wporg_custom(){
+function wp_org_custom(){
     if(did_action('save_post') !== 1){
         return;
     }
